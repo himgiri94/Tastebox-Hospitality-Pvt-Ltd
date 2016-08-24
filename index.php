@@ -16,9 +16,10 @@
 </body>
 </html>
 <?php
-function name($name){
-	return $name;
-}
+//commented code for function
+// function name($name){
+	// return $name;
+// }
 if(isset($_POST['submit'])){
 	echo name($_POST['name']).rand(6,15);
 }
